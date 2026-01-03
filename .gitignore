@@ -1,0 +1,7 @@
+*.png
+*.jpeg
+*.pt
+!model_epoch_92.pt
+!model_epoch_44.pt
+!epoch_92.png
+!epoch_44.png
