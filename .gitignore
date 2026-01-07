@@ -1,7 +1,10 @@
 *.png
 *.jpeg
 *.pt
-!model_epoch_92.pt
-!model_epoch_44.pt
-!epoch_92.png
-!epoch_44.png
+!model_epoch_72.pt
+!model_epoch_236.pt
+!model_epoch_40.pt
+
+!epoch_72.png
+!epoch_236.png
+!epoch_40.png
