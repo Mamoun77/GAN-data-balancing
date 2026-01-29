@@ -16,6 +16,13 @@ The core objective is to evaluate the effectiveness of three different **Generat
 *   **Data Augmentation**: Generated 5,700 synthetic images per model to restore balance.
 *   **Performance Evaluation**: Trained CNN classifiers on four datasets (Original vs. 3 Augmented) and compared metrics like Accuracy, F1-Score, and Recall.
 
+---
+A sample of the generated images for each GAN variation:
+
+<img width="870" height="302" alt="image" src="https://github.com/user-attachments/assets/31f179e1-dfe9-497c-bfeb-47a480ffd48e" />
+
+
+
 ## 📂 Repository Structure
 ```text
 .
@@ -59,4 +66,5 @@ Original (Baseline)	98.59%	97.04%	0.9835
 Vanilla GAN	98.90%	97.45%	0.9866
 DCGAN	98.77%	97.45%	0.9861
 CGAN	98.71%	97.24%	0.9860
+
 Conclusion: The Vanilla GAN augmentation provided the best overall improvement for this specific dataset, demonstrating that even simple generative models can effectively mitigate class imbalance bias.
